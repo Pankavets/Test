@@ -39,4 +39,11 @@ def test_multiplication_by_zero():
     assert multiply(5, 0) == 0
     assert multiply(100, 0) == 0
     print("✅ test_multiplication_by_zero passed!")
-
+if __name__ == "__main__":
+    test_add()
+    test_subtract()
+    test_multiply()
+    test_divide()
+    test_multiplication_by_zero()
+    print("\n🎉 Все тесты прошли успешно!")
+    
